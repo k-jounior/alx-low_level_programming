@@ -2,14 +2,12 @@
 
 /*
  * main - print the string the printf function
- * Description:using the main function
- * with proper grammar, but the outcome is a piece of art
- * main prints the input in the printf function
+ * Description:  using the main function
+ * this program prints with proper grammar, but the outcome is a piece of art,
  * Return: 0
  */
-
 int main(void)
 {
-  printf("with proper grammar, but the outcome is a piece of art,\n");
+  printf ("with proper grammar, but the outcome is a piece of art,\n");
   return (0);
 }
