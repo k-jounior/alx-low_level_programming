@@ -6,8 +6,8 @@
  * this program prints with proper grammar, but the outcome is a piece of art,
  * Return: 0
  */
-int main(void)
+int main(void) /* main - print the string the printf function */
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+printf( "with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
