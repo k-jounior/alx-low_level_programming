@@ -7,7 +7,7 @@
  *
  * Description: using the main function
  * this prorgram prints "The last digit"
- * Retun: 0
+ * Return: 0
  */
 
 int main(void)
