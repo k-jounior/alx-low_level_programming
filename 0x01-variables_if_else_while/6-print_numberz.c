@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - the main functions prints all single digit numbers of base 10
+ * main - the main function prints single digit numbers
  *
- * Description: using the main function 
- * the program prints all single digit numbers of base 10 starting from 0 
+ * Description: using main function to print single digit numbers of base 10
+ * the program prints single digit numbers from 0 to 9
  * Return: 0
  */
 
