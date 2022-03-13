@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	char ch, p;
+	int ch, p;
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
