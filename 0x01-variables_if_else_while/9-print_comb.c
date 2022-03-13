@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
  * main - the main function prints all possible combinations
@@ -21,7 +22,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
