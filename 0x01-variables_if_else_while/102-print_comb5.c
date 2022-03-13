@@ -4,7 +4,7 @@
 /**
  * main - printing all combinations of two two-digits
  *
- * Description: Using the main function 
+ * Description: Using the main function
  * printing all combinations of two two-digit numbers
  * Return: returns success
  */
@@ -25,7 +25,6 @@ int main(void)
 
 			if (a == 98 && b == 99)
 				continue;
-			
 			putchar(',');
 			putchar(' ');
 		}
