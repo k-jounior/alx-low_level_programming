@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time>
 
 /**
  * main - printing all combinations of two two-digits
