@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char a[] = {'_','p','u','t','c','h','a','r'};
+	char a[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
         unsigned int b;
 
 	for (b = 0; b < sizeof(a); b++)
