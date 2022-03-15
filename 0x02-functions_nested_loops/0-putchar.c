@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  * main - printing _putchar
@@ -15,8 +14,8 @@ int main(void)
 
 	for (b = 0; b < sizeof(a); b++)
 	{
-		putchar(a[b]);
+		_putchar(a[b]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
