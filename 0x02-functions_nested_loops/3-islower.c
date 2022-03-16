@@ -5,7 +5,7 @@
  *
  * Descripion: _islower prints lowercase characters
  * Return: 1 if lower otherwise 0
- * @c - is the int that will be used as an argument of the function
+ * @c: is the int that will be used as an argument of the function
  */
 
 int _islower(int c)
