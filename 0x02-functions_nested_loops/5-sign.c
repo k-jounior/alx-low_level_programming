@@ -21,9 +21,9 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else 
+	else
 	{
-		_putchar('1');
+		_putchar('+1');
 		return (1);
 	}
 }
