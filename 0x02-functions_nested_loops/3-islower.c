@@ -4,8 +4,7 @@
  * _islower - prints lowercase characters
  *
  * Descripion: _islower prints lowercase characters
- * Return: 1 if c is lower
- * Return: 0 if not lower
+ * Return: 1 if c is lower otherwise 0
  */
 
 int _islower(int c)
