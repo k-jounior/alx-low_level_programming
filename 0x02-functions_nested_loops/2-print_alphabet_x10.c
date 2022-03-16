@@ -12,9 +12,9 @@ void print_aphabet_x10(void)
 	char m;
 	int n;
 
-	for (m = 'a'; m <= 'z'; m++)
+	for (n = 0; n <= 10; n++)
 	{
-		while (n <= 10)
+		for (m = 'a'; m <= 'z'; m++)
 		{
 			_putchar(m);
 		}
