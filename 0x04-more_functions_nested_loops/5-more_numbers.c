@@ -8,14 +8,21 @@
 
 void more_numbers(void)
 {
-	int x, y;
+	int x = 0;
+	int y = 0;
 
-	while (x <= 14)
+	while (x <= 9)
 	{
-		for (y = 0; y <= 9; y++)
+		while (y <= 14)
 		{
-			_putchar(y);
+			if (y > 9)
+				_putchar(y / 10 + '0');
+			_putchar(y % 10 + '0');
+			y++;
 		}
+		_putchar('\n');
+		x++;
+		y = 0;
 	}
-	_putchar('\n');
 }
+		
