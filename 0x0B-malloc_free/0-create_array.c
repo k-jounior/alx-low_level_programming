@@ -8,30 +8,14 @@
 
 char *create_array(unsigned int size, char c)
 {
+	char *par;
 	unsigned int i;
-	char *array;
 
-	i = 0;
+	par = malloc(sizeof(c) * size);
 
-	if (size == 0)
-	{
-		return ('\0');
-	}
-	else
-	{
-		array = malloc(sizeof(char) * size);
-		if (array = '\0')
-		{
-			return ('\0');
-		}
-		else
-		{
-			while (i < size)
-			{
-				array[i] = c;
-				i++;
-			}
-		}
-		return (array);
-	}
+	if (!size || !par)
+		return (NULL);
+	for (i = 0; i < size; i++)
+		par[i] = c;
+	return (par);
 }
