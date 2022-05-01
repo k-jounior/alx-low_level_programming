@@ -8,16 +8,26 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int val = 0;
-	int i = 0;
+	unsigned int value = 0;
+	unsigned int power = 0;
+	int count = 0;
 
-	if (b == NULL)
+	if (!b)
 		return (0);
-	while (b[i] == '0' || b[i] == '1')
+	/* Get length of string */
+	while (b[count] != '\0')
 	{
-		val <<= 1;
-		val += b[i] - '0';
-		i++;
+		if (b[count] != '0' && b[count] != '1')
+			return (0);
+		count++;
 	}
-	return val;
+	count -= 1;
+	while (count >= 0)
+	{
+		if (b[count] == '1')
+			value += _pow_recursion(2, power);
+		power++;
+		count--;
+	}
+	return (value);
 }
